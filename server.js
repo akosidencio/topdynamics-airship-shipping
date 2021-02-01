@@ -28,7 +28,7 @@ app.prepare().then(() => {
             apiKey: SHOPIFY_API_KEY,
             secret: SHOPIFY_API_SECRET_KEY,
             scopes: ['write_shipping'],
-            afterAuth(ctx) {
+            async afterAuth(ctx) {
                 const { accessToken } = ctx.session
                 const urlParams = new URLSearchParams(ctx.request.url)
                 const shop = urlParams.get('shop');
