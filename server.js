@@ -6,6 +6,7 @@ const { default: createShopifyAuth } = require('@shopify/koa-shopify-auth')
 const dotenv = require('dotenv');
 const { verifyRequest } = require('@shopify/koa-shopify-auth')
 const session = require('koa-session')
+const axios = require('axios')
 
 dotenv.config()
 
