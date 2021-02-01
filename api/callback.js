@@ -909,49 +909,6 @@ const phProvinces =  [
 ];
 // sender ids
 const sellersIds = {
-    'byaheros': {
-        'waynebcastillo@hotmail.com': 5297,
-        'airagraceatabay@gmail.com': 5298,
-        'isabelamay.villa@gmail.com': 5299,
-        'keishasegui@gmail.com': 5300,
-        'dannyolaguer@yahoo.com': 5301,
-        'emelypineda215@gmail.com': 5302,
-        'gregorioangelica653@gmail.com': 5303,
-        'shinhill07@gmail.com': 5304,
-        'junebviray@yahoo.com': 5305,
-        'nerisscinco@yahoo.com': 5306,
-        'miletaquino@gmail.com': 5307,
-        'a.endrenal@gmail.com': 5308,
-        'jairrayap14@gmail.com': 5310,
-        'joannasingson00@gmail.com': 5311,
-        'mkzamoraa@gmail.com': 5312,
-        'maraaadg@gmail.com': 5313,
-        'kimberlycabugao26@gmail.com': 5314,
-        'estrada.josefina@gmail.com': 5315,
-        'chitoaguro@gmail.com': 5316,
-        'tinlaceda@yahoo.com': 5317,
-        'meaghan.reyess@gmail.com': 5318,
-        'jesdecastro94@gmail.com': 5321,
-        'lutherauthor@gmail.com': 5322,
-        'anmaje.calvan@gmail.com': 5323,
-        'josefelcastillo@gmail.com': 5324,
-        'alextramae@gmail.com': 5326,
-        'eveaguila.medbilling@gmail.com': 5327,
-        'paisley.retail@gmail.com': 5328,
-        'scarletmedos@gmail.com': 5329,
-        'rosenda.m.orbillo@gmail.com': 5330,
-        'aubreymendoza0106@gmail.com': 5331,
-        'gelabau03@gmail.com': 5332,
-        'peredowilson8888@gmail.com': 5333,
-        'yashreinpaula@gmail.com': 5334,
-        'alyssatueres@gmail.com': 5338,
-        'luisamaula@gmail.com': 5339,
-        'ganalgianna@gmail.com': 5340,
-        'jasmintan.books@gmail.com': 5341,
-    },
-    'mileexpress': {
-
-    },
     'topdynamics': {
         'airagraceatabay@gmail.com': 5346,
         'isabelamay.villa@gmail.com': 5347,
@@ -980,60 +937,50 @@ const sellersIds = {
         'kimberlycabugao26@gmail.com': 5372,
         'estrada.josefina@gmail.com': 5373,
         'kachina098@gmail.com': 5374,
+        'chitoaguro@gmail.com': 5406,
+        'avcelestinea@gmail.com': 5407,
+        'diazsarahjeane9@gmail.com': 5408,
+        'tinlaceda@yahoo.com': 5409,
+        'meaghan.reyess@gmail.com': 5410,
+        'jesdecastro94@gmail.com': 5411,
+        'lutherauthor@gmail.com': 5412,
+        'diolapogi@gmail.com': 5417,
+        'anmaje.calvan@gmail.com': 5418,
+        'balaneannshazny@gmail.com': 5419,
+        'josefelcastillo@gmail.com': 5420,
+        'alextramae@gmail.com': 5422,
+        'eveaguila.medbilling@gmail.com': 5423,
+        'paisley.retail@gmail.com': 5424,
+        'scarletmedos@gmail.com': 5425,
+        'keykbianca@gmail.com': 5426,
+        'rosenda.m.orbillo@gmail.com': 5428,
+        'aubreymendoza0106@gmail.com': 5429,
+        'gelabau03@gmail.com': 5430,
+        'peredowilson8888@gmail.com': 5431,
+        'yashreinpaula@gmail.com': 5432,
+        'alyssatueres@gmail.com': 5435,
+        'luisamaula@gmail.com': 5436,
+        'ganalgianna@gmail.com': 5437,
+        'estrada.josefina@gmail.com': 5438,
+        'jasmintan.books@gmail.com': 5439,
+        'airagraceatabay@gmail.com': 5441,
+        'isabelamay.villa@gmail.com': 5442,
+        'dannyolaguer@yahoo.com': 5443,
+        'maricor.sotto.16.ms@gmail.com': 5444,
+        'alyssa.marielle16@gmail.com': 5445,
+        'jersheydizon8@gmail.com': 5446,
+        'shinhill07@gmail.com': 5447,
+        'tpauline12@yahoo.com': 5449,
+        'miletaquino@gmail.com': 5450,
+        'gwenlibrodo@yahoo.com': 5451,
     },
-    'padyak': {
-
-    },
-    'pasabuyko': {
-
-    }
 }
 // Api keys
-const byaherosKeys = {
-    secretKey: 'b2490920-dd4f-43f3-bdb1-b7a2d2582a3e',
-    apiKey: '5921e161-946d-4143-a8cd-e71c0addc697'
-}
-const mileExpressKeys = {
-    secretKey: 'e1c7d8a9-49d0-4bf7-b257-29d3102ee41f',
-    apiKey: 'f9cb3f4f-2f2a-4358-9025-873a73587805'
-}
 const topDynamicsKeys = {
     secretKey: '70e72ad8-bf08-445d-a3db-b73e7781f7b3',
     apiKey: '52f24a29-44e8-41b5-8569-59491ccd6c69'
 }
-const padyakKeys = {
-    secretKey: '3bc43628-1836-4552-8910-660f345c4eff',
-    apiKey: '218ea0e2-ede1-4650-8fb9-8b78dc004f77'
-}
-const pasabuykoKeys = {
-    secretKey: '103c58f2-53c0-4c6f-bd49-02cbc6f66b9c',
-    apiKey: 'd08b0119-143e-4148-87c7-2fd5222c29e6'
-}
 // Couriers
-const byaheros = [
-    {
-        "id": 314,
-        "name": "Bulacan"
-    },
-    {
-        "id": 421,
-        "name": "Cavite"
-    },
-    {
-        "id": 1339,
-        "name": "Metro Manila"
-    },
-    {
-        "id": 458,
-        "name": "Rizal"
-    }
-]
-const mileExpress = [
-    {
-        "id": 1339,
-        "name": "Metro Manila"
-    }
-]
 const topDynamics = [
     {
         "id": 1401,
@@ -1362,370 +1309,6 @@ const topDynamics = [
     {
         "id": 983,
         "name": "Zamboanga Sibugay"
-    }
-]
-const padyak = [
-    {
-        "id": 128,
-        "name": "Ilocos Norte"
-    },
-    {
-        "id": 129,
-        "name": "Ilocos Sur"
-    },
-    {
-        "id": 133,
-        "name": "La Union"
-    },
-    {
-        "id": 155,
-        "name": "Pangasinan"
-    },
-    {
-        "id": 209,
-        "name": "Batanes"
-    },
-    {
-        "id": 215,
-        "name": "Cagayan"
-    },
-    {
-        "id": 231,
-        "name": "Isabela"
-    },
-    {
-        "id": 250,
-        "name": "Nueva Vizcaya"
-    },
-    {
-        "id": 257,
-        "name": "Quirino"
-    },
-    {
-        "id": 308,
-        "name": "Bataan"
-    },
-    {
-        "id": 314,
-        "name": "Bulacan"
-    },
-    {
-        "id": 349,
-        "name": "Nueva Ecija"
-    },
-    {
-        "id": 354,
-        "name": "Pampanga"
-    },
-    {
-        "id": 369,
-        "name": "Tarlac"
-    },
-    {
-        "id": 371,
-        "name": "Zambales"
-    },
-    {
-        "id": 377,
-        "name": "Aurora"
-    },
-    {
-        "id": 410,
-        "name": "Batangas"
-    },
-    {
-        "id": 421,
-        "name": "Cavite"
-    },
-    {
-        "id": 434,
-        "name": "Laguna"
-    },
-    {
-        "id": 456,
-        "name": "Quezon"
-    },
-    {
-        "id": 458,
-        "name": "Rizal"
-    },
-    {
-        "id": 505,
-        "name": "Albay"
-    },
-    {
-        "id": 516,
-        "name": "Camarines Norte"
-    },
-    {
-        "id": 517,
-        "name": "Camarines Sur"
-    },
-    {
-        "id": 520,
-        "name": "Catanduanes"
-    },
-    {
-        "id": 541,
-        "name": "Masbate"
-    },
-    {
-        "id": 562,
-        "name": "Sorsogon"
-    },
-    {
-        "id": 604,
-        "name": "Aklan"
-    },
-    {
-        "id": 606,
-        "name": "Antique"
-    },
-    {
-        "id": 619,
-        "name": "Capiz"
-    },
-    {
-        "id": 630,
-        "name": "Iloilo"
-    },
-    {
-        "id": 645,
-        "name": "Negros Occidental"
-    },
-    {
-        "id": 679,
-        "name": "Guimaras"
-    },
-    {
-        "id": 712,
-        "name": "Bohol"
-    },
-    {
-        "id": 722,
-        "name": "Cebu"
-    },
-    {
-        "id": 746,
-        "name": "Negros Oriental"
-    },
-    {
-        "id": 761,
-        "name": "Siquijor"
-    },
-    {
-        "id": 826,
-        "name": "Eastern Samar"
-    },
-    {
-        "id": 837,
-        "name": "Leyte"
-    },
-    {
-        "id": 848,
-        "name": "Northern Samar"
-    },
-    {
-        "id": 860,
-        "name": "Samar (western samar)"
-    },
-    {
-        "id": 864,
-        "name": "Southern Leyte"
-    },
-    {
-        "id": 878,
-        "name": "Biliran"
-    },
-    {
-        "id": 972,
-        "name": "Zamboanga Del Norte"
-    },
-    {
-        "id": 973,
-        "name": "Zamboanga Del Sur"
-    },
-    {
-        "id": 983,
-        "name": "Zamboanga Sibugay"
-    },
-    {
-        "id": 997,
-        "name": "City Of Isabela"
-    },
-    {
-        "id": 1013,
-        "name": "Bukidnon"
-    },
-    {
-        "id": 1018,
-        "name": "Camiguin"
-    },
-    {
-        "id": 1035,
-        "name": "Lanao Del Norte"
-    },
-    {
-        "id": 1042,
-        "name": "Misamis Occidental"
-    },
-    {
-        "id": 1043,
-        "name": "Misamis Oriental"
-    },
-    {
-        "id": 1123,
-        "name": "Davao Del Norte"
-    },
-    {
-        "id": 1124,
-        "name": "Davao Del Sur"
-    },
-    {
-        "id": 1125,
-        "name": "Davao Oriental"
-    },
-    {
-        "id": 1182,
-        "name": "Compostela Valley"
-    },
-    {
-        "id": 1186,
-        "name": "Davao Occidental"
-    },
-    {
-        "id": 1247,
-        "name": "Cotabato (north cotabato)"
-    },
-    {
-        "id": 1263,
-        "name": "South Cotabato"
-    },
-    {
-        "id": 1265,
-        "name": "Sultan Kudarat"
-    },
-    {
-        "id": 1280,
-        "name": "Sarangani"
-    },
-    {
-        "id": 1298,
-        "name": "Cotabato City"
-    },
-    {
-        "id": 1339,
-        "name": "Metro Manila"
-    },
-    {
-        "id": 1401,
-        "name": "Abra"
-    },
-    {
-        "id": 1411,
-        "name": "Benguet"
-    },
-    {
-        "id": 1427,
-        "name": "Ifugao"
-    },
-    {
-        "id": 1432,
-        "name": "Kalinga"
-    },
-    {
-        "id": 1444,
-        "name": "Mountain Province"
-    },
-    {
-        "id": 1481,
-        "name": "Apayao"
-    },
-    {
-        "id": 1507,
-        "name": "Basilan"
-    },
-    {
-        "id": 1536,
-        "name": "Lanao Del Sur"
-    },
-    {
-        "id": 1538,
-        "name": "Maguindanao"
-    },
-    {
-        "id": 1566,
-        "name": "Sulu"
-    },
-    {
-        "id": 1570,
-        "name": "Tawi-tawi"
-    },
-    {
-        "id": 1602,
-        "name": "Agusan Del Norte"
-    },
-    {
-        "id": 1603,
-        "name": "Agusan Del Sur"
-    },
-    {
-        "id": 1667,
-        "name": "Surigao Del Norte"
-    },
-    {
-        "id": 1668,
-        "name": "Surigao Del Sur"
-    },
-    {
-        "id": 1685,
-        "name": "Dinagat Islands"
-    },
-    {
-        "id": 1740,
-        "name": "Marinduque"
-    },
-    {
-        "id": 1751,
-        "name": "Occidental Mindoro"
-    },
-    {
-        "id": 1752,
-        "name": "Oriental Mindoro"
-    },
-    {
-        "id": 1753,
-        "name": "Palawan"
-    },
-    {
-        "id": 1759,
-        "name": "Romblon"
-    }
-]
-const pasabuyko = [
-    {
-        "id": 410,
-        "name": "Batangas"
-    },
-    {
-        "id": 314,
-        "name": "Bulacan"
-    },
-    {
-        "id": 421,
-        "name": "Cavite"
-    },
-    {
-        "id": 434,
-        "name": "Laguna"
-    },
-    {
-        "id": 1339,
-        "name": "Metro Manila"
-    },
-    {
-        "id": 458,
-        "name": "Rizal"
     }
 ];
 // calculate / get shipping fees
