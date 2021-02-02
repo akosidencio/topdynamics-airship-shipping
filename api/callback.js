@@ -1328,7 +1328,7 @@ const calculateShipping = async (name, courierProvinces, apiKey, secretKey, send
                         }
                 })
                 if (availableCities && availableCities.data.data.length > 0) {
-                    const city = availableCities && availableCities.data.data.find((el) => el.name.trim() === `${destinationCity} City`)
+                    const city = availableCities && availableCities.data.data.find((el) => el.name.trim().toLowerCase() === `${destinationCity.toLowerCase()} City` || el.name.trim().toLowerCase() === `${destinationCity.toLowerCase()} city`)
                     if(city) {
                         // get city package types
                         const availablePackages = await axios.get(`https://rest.airship.live/v1/package_types?city_id=${city.id}`, {
