@@ -37,7 +37,7 @@ app.prepare().then(() => {
                 async function registerCarrierService(accessToken) {
                     const data = {
                         carrier_service: {
-                            name: 'Top Dynamics Airship BookspinePH Shipping',
+                            name: 'Airship BookspinePH Shipping 1',
                             callback_url: 'https://topdynamics-airship-shipping.herokuapp.com/api/callback',
                             service_discovery: true,
                             format: 'json'
