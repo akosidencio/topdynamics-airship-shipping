@@ -1316,7 +1316,7 @@ const calculateShipping = async (name, courierProvinces, apiKey, secretKey, send
     const isDestinationServiceable = courierProvinces.some((el) => el.name === destinationProvince);
     let shippingRate = null;
     if(isDestinationServiceable) {
-        const isSellerServiceable = courierProvinces.some((el) => el.name === sellerProvince);
+        const isSellerServiceable = courierProvinces.some((el) => el.name.trim().toLowerCase() === sellerProvince.toLowerCase());
         if(isSellerServiceable) {
             const province = courierProvinces.find((el) => el.name === destinationProvince);
             try {
@@ -1328,7 +1328,7 @@ const calculateShipping = async (name, courierProvinces, apiKey, secretKey, send
                         }
                 })
                 if (availableCities && availableCities.data.data.length > 0) {
-                    const city = availableCities && availableCities.data.data.find((el) => el.name.trim().toLowerCase() === `${destinationCity.toLowerCase()} City` || el.name.trim().toLowerCase() === `${destinationCity.toLowerCase()} city`)
+                    const city = availableCities && availableCities.data.data.find((el) => el.name.trim().toLowerCase() === `${destinationCity.toLowerCase()} City` || el.name.trim().toLowerCase() === `${destinationCity.toLowerCase()} city` || el.name.trim().toLowerCase() === destinationCity.toLowerCase())
                     if(city) {
                         // get city package types
                         const availablePackages = await axios.get(`https://rest.airship.live/v1/package_types?city_id=${city.id}`, {
