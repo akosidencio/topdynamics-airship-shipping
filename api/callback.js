@@ -1316,7 +1316,7 @@ const calculateShipping = async (name, courierProvinces, apiKey, secretKey, send
     const isDestinationServiceable = courierProvinces.some((el) => el.name === destinationProvince);
     let shippingRate = null;
     if(isDestinationServiceable) {
-        const isSellerServiceable = courierProvinces.some((el) => el.name.trim().toLowerCase() === sellerProvince.toLowerCase());
+        const isSellerServiceable = courierProvinces.some((el) => el.name === sellerProvince);
         if(isSellerServiceable) {
             const province = courierProvinces.find((el) => el.name === destinationProvince);
             try {
