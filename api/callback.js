@@ -70,6 +70,15 @@ const sellersIds = {
         'miletaquino@gmail.com': 5450,
         'gwenlibrodo@yahoo.com': 5451,
         'acalajessa91@gmail.com': 5804,
+        'sia.vochelle@gmail.com': 5954,
+        'olivareslehi@gmail.com': 5955,
+        'aehsypeino6@gmail.com': 5957,
+        'andrew.bernardo66@yahoo.com': 5958,
+        'cheapobooksonline@gmail.com': 5959,
+        'minerva.bacsal@gmail.com': 5960,
+        'margie.a.deleon@gmail.com': 5961,
+        'deanalegre23@gmail.com': 5962,
+        'junebviray@yahoo.com': 5963
     },
 }
 // Api keys
