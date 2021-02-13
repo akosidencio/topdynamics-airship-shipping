@@ -78,7 +78,8 @@ const sellersIds = {
         'minerva.bacsal@gmail.com': 5960,
         'margie.a.deleon@gmail.com': 5961,
         'deanalegre23@gmail.com': 5962,
-        'junebviray@yahoo.com': 5963
+        'junebviray@yahoo.com': 5963,
+        'angelencila777@gmail.com': 5979,
     },
 }
 // Api keys
@@ -450,7 +451,7 @@ const calculateShipping = async (name, courierProvinces, apiKey, secretKey, send
                                 receiver_address: destinationAddress,
                                 receiver_city_id: city.id,
                                 receiver_province_id: province.id,
-                                package_type_id: availablePackages.data.data[2].id
+                                package_type_id: availablePackages.data.data[2].id,
                             }
                             const quotations = await axios.post('https://rest.airship.live/v1/quotations', params, {
                                 headers: {
