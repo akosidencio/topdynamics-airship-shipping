@@ -80,6 +80,7 @@ const sellersIds = {
         'deanalegre23@gmail.com': 5962,
         'junebviray@yahoo.com': 5963,
         'angelencila777@gmail.com': 5979,
+        'ezrafanan@gmail.com': 6077,
     },
 }
 // Api keys
